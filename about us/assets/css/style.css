@@ -350,11 +350,29 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
-} */
+} 
 
 /**
 * Mobile Navigation 
 */
+
+.vid{
+  margin-top: 60px;
+  padding: 100px;
+}
+.video{
+  margin: 23px 55px 85px 22px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 8px grey;
+}
+
+
+@media (max-width: 1394px){
+  .video1{
+    margin: 0px 0px 0px 26px;
+    align-items: center;
+  }
+}
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -654,7 +672,7 @@ body{
 .btn{
   background: lightskyblue;
   color: white;
-  padding: 0 .10px;
+  padding: 0px 10px;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -896,6 +914,17 @@ p{
 
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
+}
+
+#btn{
+  position: absolute;
+width: 300px;
+height: 100px;
+left: 600px;
+top: 400px;
+
+background:black;
+border-radius: 87.5px;
 }
 
 /*--------------------------------------------------------------
