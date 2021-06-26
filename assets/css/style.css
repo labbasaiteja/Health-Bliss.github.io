@@ -77,15 +77,16 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   background: rgb(228 230 242 / 90%);
 }
-
+/* 
 #header .logo h1 {
+  left: 100px;
   font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
   letter-spacing: 1px;
-}
+} */
 
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
@@ -93,9 +94,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  padding: 0;
+  padding-right: 70px;
   margin: 0;
   max-height: 40px;
+  
 }
 
 /*--------------------------------------------------------------
