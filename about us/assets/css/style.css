@@ -19,6 +19,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
 }
 #saberfeedback_button span{
   background: rgb(44 33 132);
@@ -358,10 +359,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .vid{
   margin-top: 60px;
-  padding: 100px;
+  padding: 50px;
 }
 .video{
-  margin: 23px 55px 85px 22px;
+  margin: 23px 55px 30px 22px;
   border-radius: 30px;
   box-shadow: 5px 5px 8px grey;
 }
@@ -481,7 +482,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70%;
+  height: 50%;
   background-repeat: no-repeat;
   background: url(../img/banner.jpg) center center no-repeat;
   background-size: cover;
@@ -490,22 +491,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container, #hero .container-fluid {
-  padding-top: 110px;/* 84px;*/
+  padding-top: 100px;/* 84px;*/
   padding-bottom:0%;
 }
 
 #hero h1 {
   margin: 0;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
-  margin: -40px 0px 5px -250px;
-  font-size: 50px;
+  color: rgb(255, 255, 255);
+  margin: -80px 0px 50px -170px;
+  font-size: 60px;
 }
 
 #hero .btn-get-started {
@@ -532,12 +533,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 h3{
   font-weight: lighter;
-  letter-spacing: 1px;
-  margin: 5px 50px 100px -550px;
+  letter-spacing: 2px;
+  margin: 25px 100px 125px -700px;
   line-break: auto;
-  font-size: 25px;
-  color: whitesmoke;
-
+  font-size: 27px;
+  color: white;
+  text-align: justify;
 }
 @media (min-width: 1200px) {
   #hero {
@@ -633,28 +634,29 @@ section {
 body{
   background: rgb(230, 230, 175);
 }
-/* .container{
+.container{
   background: url(bg.jpg) no-repeat center;
   background-size: cover;
-  padding: 100px 40px;
+  padding: 10px 0px;
   text-align: center;
-  color: white;
-} */
+  color: darkslateblue;
+  font-weight: 500;
+}
 /* .container p {
   max-width: 600px;
   margin: 20px 20px;
-  font-size: 15px;
+  font-size: 50px;
   font-weight: 300;
 } */
 .email-box{
-  height: 40px;
+  height: 50px;
   justify-content: center;
   display: inline-flex; /*its better to use inline-flex*/
-  padding-bottom: 0px;
+  padding-bottom: 10px;
 }
 .email-box i{
-  background: lightskyblue;
-  width: 40px;
+  background: lightcoral;
+  width: 45px;
   line-height: 40px;
 }
 .tbox,.btn{
@@ -667,10 +669,10 @@ body{
 }
 .email-box:hover > .tbox,.tbox:focus{
   width: 260px;
-  padding: 0 10px;
+  padding: 0px 10px;
 }
 .btn{
-  background: lightskyblue;
+  background: lightcoral;
   color: white;
   padding: 0px 10px;
   text-transform: uppercase;
@@ -678,7 +680,7 @@ body{
 }
 
 .section-title h2 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -726,7 +728,7 @@ body{
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5846f9;
+  color:  lightgreen;
 }
 
 .about .content p:last-child {
@@ -1455,14 +1457,16 @@ border-radius: 87.5px;
   font-size: 20px;
   color: #2c4964;
   font-weight: 600;
-  margin: 0px 0;
+  margin: 0px 0px;
+  text-align: center;
 }
 
 .contact .info-box p {
-  padding: 0px;
+  padding: 0px 10px;
   line-height: 0px;
   font-size: 20px;
   margin-bottom: 0;
+  /* text-align: justify; */
 }
 
 .contact .php-email-form {
@@ -1636,10 +1640,10 @@ border-radius: 87.5px;
   font-size: 36px;
   font-weight: 700;
   color: #222e85;
-  position: relative;
+  position: center;
   font-family: "Poppins", sans-serif;
   padding: 0;
-  margin: 0 0 15px 0;
+  margin: 0 0 15px 550px;
 }
 
 #footer p {
